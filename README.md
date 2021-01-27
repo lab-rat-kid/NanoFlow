@@ -1,12 +1,11 @@
 # NanoFlow
- Workflow to take fastq files from Nanopore cDNA sequencing to DEG lists and more
 
 <!-- HEADER -->
 <br />
 <p align="center">
   <h3 align="center">Nanopore cDNA Sequencing Analysis Workflow</h3>
   <p align="center">
-    Takes fastq files from Nanopore sequencing and returns a html reports for QC and differential expression as well as handy csv files for further analysis.
+    Workflow to take fastq files from Nanopore cDNA sequencing to DEG lists and more.
     <br />
   </p>
 </p>
@@ -31,7 +30,7 @@
 ## About
 
 This is my attempt at streamlining the pipeline for Nanopore cDNA sequencing analysis.
-The current version (v0.1) is mostly code ripped from other people (that for some reason did not work for me) bolted together until, like Frankenstein, the monster came to life!!!
+The current version (v0.1) is mostly code ripped from other people (that for some reason did not work for me) bolted together until, like Frankenstein, my monster came to life!!!
 
 Given fastq files, a reference transcriptome, and an annotation file, this workflow will process the reads, align, count, and analyse for differential expression. Along with handy csv files you will also receive html reports which contain loads of analytics for quality control and overall assessment of the success of your sequencing and analysis
 
