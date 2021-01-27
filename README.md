@@ -33,25 +33,25 @@
 This is my attempt at streamlining the pipeline for Nanopore cDNA sequencing analysis.
 The current version (v0.1) is mostly code ripped from other people (that for some reason did not work for me) bolted together until, like Frankenstein, the monster came to life!!!
 
-Given fastq files, a reference transcriptome, and an annotation file, this workflow will process the reads, align, count, and analyse for differential expression. Along with handy csv files you will also recieve html reports which contain loads of analytics for quality control and overall assessment of the success of your sequencing and analysis
+Given fastq files, a reference transcriptome, and an annotation file, this workflow will process the reads, align, count, and analyse for differential expression. Along with handy csv files you will also receive html reports which contain loads of analytics for quality control and overall assessment of the success of your sequencing and analysis
 
 Top differentially expressed genes between your groups.
 <p align="center">
   <a href="https://github.com/lab-rat-kid/NanoFlow">
-    <img src="images/DEGlist.jpg" alt="DEGlist" width="80" height="80">
+    <img src="images/DEGlist.jpg" alt="DEGlist">
   </a>
 </p>
 
 Various pre-set graphs covering the entire dataset.
 <p align="center">
   <a href="https://github.com/lab-rat-kid/NanoFlow">
-    <img src="images/Graphs.jpg" alt="Graphs" width="80" height="80">
+    <img src="images/Graphs.jpg" alt="Graphs">
   </a>
 </p>
 
 I've also included some R code which will take the output from the workflow and can be easily edited to examine various sets of genes closely.
 
-I will be overhauling in the future to something that does the exact same things...but in my own way. I also want to venture into wrapping this all within a unix programme so it can be called with args completely from the commandline.
+I will be overhauling in the future to something that does the exact same things...but in my own way. I also want to venture into wrapping this all within a linux programme so it can be called with args completely from the command line.
 
 
 <!-- GETTING STARTED -->
@@ -89,7 +89,7 @@ To get a local copy up and running follow these simple steps.
 
 4. Modify the file `NanoFlow.sh`
 
-5. Double check `config.yaml` and `NanoFlow.sh` are both ammended correctly
+5. Double check `config.yaml` and `NanoFlow.sh` are both amended correctly
 
 6. Activate environment and run
    ```sh
